@@ -169,4 +169,4 @@ data_to_upsert_or_insert = [{
     'Trending': final_output['Trending']
 }]
  
-upsert_or_insert_data(endpoint, key, 'heimdall-db', 'Trending-News', data_to_upsert_or_insert)
+upsert_or_insert_data(endpoint, key, 'database-name', 'container-name', data_to_upsert_or_insert)
